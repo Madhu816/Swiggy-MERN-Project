@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+/* justify-content :  horizontal
+align-items : vertical */
+
+.navSection {
+    /* border: 1px solid blue; */
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px; 
+    /* topandbottonm - 0 and left and right -20px; */
+    align-items: center;
+    font-size: larger;
+    /* background-color: blue; */
+    background-color: #f77f00;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+    width:100%;
+}
+.company{
+    color:white;
+}
+/* side-Bar */
+
+.sideBar {
+    /* border: 1px solid saddlebrown; */
+    width: 200px;
+    height: 100vh;
+    padding-top: 20px;
+    padding-left: 20px;
+    /* background-color: goldenrod; */
+    background-color: #7172a3;
+    color: white;
+}
+
+.sideBar ul li {
+    list-style: none;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.sideBar li:hover {
+    color : red;
+}
+
+
+/* login-Section */
+.collectionSection {
+    display: flex;
+}
+
+.loginSection,.registerSection{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px; 
+    margin-left: -70px;
+    /* border: 6px solid pink; */
+
+}
+
+.authForm {
+    border: 1px solid gray;
+    width: 100%;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 70vh;
+    margin-left: 200px;
+    border-radius: 14px;
+}
+
+.authForm input {
+    width: 100%;
+    max-width: 60%;
+    border-color: red;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.authForm label {
+    /* border:1px solid red; */
+    width: 100%; 
+    max-width: 60%;
+    font-weight: bold;
+    padding: 4px 10px;
+}
+
+/* firm section */
+.firmSection {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: -70px;
+
+}
+
+.tableForm {
+    border: 2px solid red;
+    width: 100%;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: -30px;
+    height: 90vh;
+    margin-left: 200px;
+    border-radius: 14px;
+    box-shadow: 5px -2px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 5px -2px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px -2px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 10px;
+}
+
+.tableForm input {
+    width: 100%;
+    max-width: 80%;
+    border-color: red;
+    height: 2.4rem;
+    padding-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.tableForm label {
+    width: 100%;
+    max-width: 80%;
+    font-weight: bold;
+    padding: 4px 10px;
+}
+
+/* product section */
+.productSection {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: -70px;
+}
+
+
+/* check boxes */
+
+.checkinp {
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 80%;
+    padding: 10px;
+}
+
+.inputsContainer {
+    display: flex;
+    margin-left: 90px;
+    gap: 20px;
+}
+
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.checkboxContainer label {
+    /* padding: 0px 10px;
+    width: 100px;
+    max-width:90px;
+    font-size: 15px; */
+    
+    font-size: 15px;
+    padding: 0;     /* remove unwanted padding */
+    width: auto;
+}
+.checkboxContainer input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #007bff;
+    /* Optional: makes checkbox blue */
+    margin:0px 0px;
+    cursor:pointer;
+}
+
+
+/* product table */
+.product-table {
+    border: 2px solid salmon;
+    width: 70vw;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.product-table th,
+.product-table td {
+    border: 1px solid orange;
+    padding: 5px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    cursor:pointer;
+}
+
+.product-table th {
+    background-color: gainsboro;
+}
+
+.noProduct {
+border:1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  /* margin-right:30px; */
+  height:100%;
+  width:100%;
+}
+.noProduct img{
+    border:1px solid blue;
+    width:60%;
+    height:60%;
+    margin-top:-100px;
+    border-radius:  20px;
+
+}
+
+/* Not found */
+.errorSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+h1 {
+    color: rgb(255, 0, 21);
+}
+.btnSubmit button{
+    background-color: aquamarine;
+    width: 5rem;
+    height: 2rem;
+    font-style: normal;
+    color:black;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.welcomeSection {
+    color: #f77f00;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* optional for horizontal centering */
+    height: 100vh; /* optional for full-screen height */
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 250px;
+}
+
+.user-details{
+    border:1px solid red;
+    width : 100%;
+    height:100%;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px 30px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+.detailcard-23{
+      text-transform:capitalize;
+}
+.detail-card h2{
+    margin-top:-10px;
+    color: brown;
+}
+.detail-card,.productlist {
+    list-style-type: none;   /* removes bullets */
+    border: 1px solid black;
+    padding: 15px;
+    margin: 15px auto;
+    width: 60%;
+    border-radius: 8px;
+    background: lab(88.97% 0.68 0.23);
+}
+
+/* Responsive */
+
+ @media(max-width:576px){
+    body{
+        font-size:14px;
+    }
+    h1{
+        font-size:22px;
+    }
+    .navSection{
+        border: 1px solid red;
+        padding:0 10px;
+        /* width:520px; */
+        width:100%;
+    }
+    .sideBar {
+        width:120px;
+  }
+  /* .collectionSection {
+  display: flex;
+  width: 100%;
+} */
+
+  .registerSection,
+  .loginSection {
+    border:1px solid red;
+    width: 100%;
+    text-align: center;
+    margin: 20px 20px;
+  }
+
+  .authForm {
+    border:1px solid orange;
+    width: 360px;
+    /* margin-left: 0;
+    max-width: 700px; */
+    margin:0px -60px; 
+    height:auto;
+  }
+  /* .tableForm{
+    border:1px solid blue;
+    max-width:100%;
+    margin-left: -40px;
+    text-items:center;
+  }
+  .tableForm input{
+    max-width: 400px;
+  }
+   */
+.firmSection {
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; */
+  /* padding: 20px;          small clean padding */
+  border: 1px solid orange;
+
+}
+
+ .tableForm {
+border: 1px solid blue;
+  width: 40%;
+  max-width: 800px;     /* normal form width */
+  margin: 20px auto;   /* 🔥 center horizontally */
+  text-align:center;  
+  margin-right:0px; 
+
+  }
+
+  .tableForm input {
+    max-width: 40%;
+  }
+} 
