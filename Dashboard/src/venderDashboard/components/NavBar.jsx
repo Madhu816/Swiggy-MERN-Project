@@ -7,7 +7,7 @@ const NavBar = ({OnLoginClick,OnRegister,showLogout,logoutHandler}) => {
     console.log(firmName);
     return (
         <div className="navSection">
-            <Link to="http://localhost:5174/"  style={{textDecoration:"none",color:"white"}}className="company"> Vender-DashBoard</Link>
+            <a href="http://localhost:5173/"  style={{textDecoration:"none",color:"white"}}className="company"> Vender-DashBoard</a>
             {/* <div className="company">Vender-DashBoard</div> */}
             <div className="firmname">
                 {firmName? <h4>FirmName : {firmName} Restarent</h4>:"Home-Page"}

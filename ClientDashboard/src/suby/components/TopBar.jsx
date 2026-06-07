@@ -12,8 +12,13 @@ const TopBar = () => {
                 <div className="searchBar">
                     <input type="text" placeholder="search..." />
                 </div>
-                <Link to="http://localhost:5173/" style={{color:"red",textDecoration:"none"}} className="userAuth">Login/Sign-Up</Link>
-
+<a
+  href="http://localhost:5174/"
+  style={{ color: "red", textDecoration: "none" }}
+  className="userAuth"
+>
+  Login/Sign-Up
+</a>
             </section>
     )
 }
