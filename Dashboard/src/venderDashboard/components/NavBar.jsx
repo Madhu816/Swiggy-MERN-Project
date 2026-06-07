@@ -8,7 +8,7 @@ const NavBar = ({ OnLoginClick, OnRegister, showLogout, logoutHandler }) => {
     return (
         <div className="navSection">
             <a
-                href="https://swiggy-client-dashboard-git-main-madhu816s-projects.vercel.app/"
+                href="https://swiggy-mern-project-wyvq.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none", color: "white" }}
