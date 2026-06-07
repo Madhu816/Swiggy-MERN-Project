@@ -7,7 +7,7 @@ const NavBar = ({OnLoginClick,OnRegister,showLogout,logoutHandler}) => {
     console.log(firmName);
     return (
         <div className="navSection">
-            <a href="http://localhost:5173/"  style={{textDecoration:"none",color:"white"}}className="company"> Vender-DashBoard</a>
+            <a href="https://swiggy-client-dashboard.vercel.app/"  style={{textDecoration:"none",color:"white"}}className="company"> Vender-DashBoard</a>
             {/* <div className="company">Vender-DashBoard</div> */}
             <div className="firmname">
                 {firmName? <h4>FirmName : {firmName} Restarent</h4>:"Home-Page"}
