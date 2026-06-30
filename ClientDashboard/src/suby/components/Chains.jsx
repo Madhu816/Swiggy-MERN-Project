@@ -66,7 +66,7 @@ function Chains() {
       <button onClick={()=>handleSection("left")}><HiOutlineArrowSmLeft className='btnIcons'/></button>
       <button onClick={()=>handleSection("right")}><HiOutlineArrowSmRight className='btnIcons'/></button>
     </div>
-    <h2>Top Restarents in Hyderabad</h2>
+    <h2>Top Restaurants in Hyderabad</h2>
     <section className="chainSection" id="chainGallery" onScroll={(event)=>setScrollSection(event.target.scrollLeft)}>
       {/* Getting all - vendors data in venderData and   */}
       {venderData.map((venders, index) => (
